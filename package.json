@@ -1,0 +1,23 @@
+{
+  "name": "javascript-tutorial",
+  "version": "1.0.0",
+  "description": "tutorial javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaque42/javascript-tutorial.git"
+  },
+  "author": "Isaque Medeiros Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaque42/javascript-tutorial/issues"
+  },
+  "homepage": "https://github.com/isaque42/javascript-tutorial#readme",
+  "dependencies": {
+    "colours": "^0.6.0-2",
+    "readline-sync": "^1.4.10"
+  }
+}
