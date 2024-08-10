@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/isaque42/javascript-tutorial#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "colours": "^0.6.0-2",
     "readline-sync": "^1.4.10"
   }

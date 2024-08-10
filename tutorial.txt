@@ -215,6 +215,10 @@ total
 
 
 
+Estruturas de controle
+
+condicionais:
+if
 
 
 Exercício 2: Desenvolver um app no console para conersão de moeda (reals para dolar)
@@ -235,7 +239,99 @@ total = real / dolar
 //saída
 total
 _____________________________________________________________________________________________________________________
+Exercicio Etanol ou gasolina
 
+Algorítmo
+O etanol vale a pena quando custar até 70% do valor da gasolina.
+
+Variáveis:
+etanol, gasolina
+
+Entrada:
+etanol, gasolina
+
+Processamento/Saída
+if(etanol < 0.7 * gasolina) {
+  //abastecer com etanol
+} else {
+  //abastecer com gasolina
+}
+
+
+
+Exemplo de uso da estrutura else if
+No exemplo cálculo da média, estabelecer as seguintes condições:
+1) Se o aluno tiver média menor que 2 (REPROVADO)
+2) Se a média do aluno estiver entre 2 e 5 (RECUPERAÇÃO)
+3) Se a média for igual ou superior a 5 (APROVADO)
+
+Resumindo:
+if(condição 1) {
+  //condição 1 verdadeira
+  } else if(condição 2) {
+    //condição 2 verdadeira
+    } else if(condição 3) {
+      //condição 3 verdadeira
+      } else {
+        //nenhuma das condições anteriores verdadeiras
+        }
+
+        obs: o else final não é obrigatório
+
+        Exercício 3:
+        No Brasil, o voto pode ser proibido , obrigatório ou facultativo, de acordo com os seguintes critérios:
+
+        idade menor que 16 (proibido de votar) 
+        idade entre 18 e 70 (incluido 18 e 70) o (voto é obrigatório)
+        16, 17 ou acima de 70 (boto é opcional)
+
+        Desenvolva no console do JS um APP para verificar em função da idade a obrigação ou não de votar.
+        Testar com os valores 15(proibido), 16, 17(facultativo), 18,70 (obrigatório) e 71(facultativo)
+
+        ----------------------------------------------------------------------------------------------------------
+        Estrutura de controle condicional: switch-case
+        Sintaxe:
+        variável (número inteiro ou letra)
+        switch(variável) {
+          case: 1
+            //código se o valor da variável for igual a 1 break
+            case: 2
+            //código se o valor da variável for igual a 2 
+            break
+            default:
+              //código caso valor diferente de 1 ou 2 
+              break
+        }      
+
+        --------------------------------------------------------------
+        Exercício 4: Desenvolva no console do JS um aplicativo que faça o sorteio de um jogo de dado, ao resultado associar
+        usando switch case a imagem da face do dado correspondente
+        Exemplo:
+
+       ⚀ - face 1
+       ⚁ - face 2
+       ⚂ - face 3
+       ⚃ - face 3
+       ⚄ - face 4
+       ⚅ - face 5
+
+       ______________________________________________________________________________________________________________________________
+       Estruturas de controle - laços de repetições
+       for
+       while
+       do-while
+
+       for estrutura de repetição finitas(determina)
+
+       for (let i=1; condição; incremento/decremento) {
+           //início; repetir enquanto condições verdadeiras; i++ ou i--
+       }
+
+       //obs: a variável declarada dentro das estruturas deve ser um número inteiro   
+       
+ 
+        
+            
 
 
 
