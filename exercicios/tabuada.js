@@ -1,6 +1,6 @@
 /**
  * Tabuada
- * @author Isaque Medeiros Pereira 
+ * @author Isaque Medeiros Pereira
  */
 
 const input = require('readline-sync')

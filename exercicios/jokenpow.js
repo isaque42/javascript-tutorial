@@ -36,6 +36,9 @@ switch (resultado1) {
         break
     case 3:
         console.log("Jogador escolheu Tesoura".cyan)
+        break
+    default:
+        console.log("Opcao invalida".cyan)
 }
 
 //entrada Computador
