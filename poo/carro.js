@@ -8,9 +8,10 @@
 
 class Carro {
     //atributos
-    constructor(resistencia, textura) {
-        this.resistencia = resistencia
-        this.textura = textura
+    constructor(nome, ano, cor, carro1) {
+        this.nome = nome
+        this.cor = cor
+        this.ano = ano
     }
 
     criarCarro() {

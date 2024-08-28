@@ -321,15 +321,110 @@ if(condição 1) {
        while
        do-while
 
-       for estrutura de repetição finitas(determina)
+       for - estrutura de repetição finitas(determina)
 
        for (let i=1; condição; incremento/decremento) {
            //início; repetir enquanto condições verdadeiras; i++ ou i--
        }
 
-       //obs: a variável declarada dentro das estruturas deve ser um número inteiro   
+       //obs: a variável declarada dentro das estruturas deve ser um número inteiro  
+       ----------------------------------------------------------------------------------------
+       Interiro
+
+
+       Exercícios 5:
+       5.1 Escreva um código que some todos os números de 1 a 100 e exibe o resultado no console.
+
+       5.2Escreva um código que use um laço for para contar quantos números pares existem de 1 a 20. 
+
+       while  do-while - estruturas de repetições infinitas 
+
+       while (condição) {
+          // analisa a condição e  executa o código enquanto a condição for verdadeira
+       } 
+
+
+      do {
+         // sempre executa o código uam vez indenpedente da condição, depois se comporta cm while
+       } while(condição)   
+
+       Exercício 6:
+       Desenvolver um aplicativo para caucular a tabuada, semelhante ao exemplo de aula usando a estrutura while no lugar do for
+
        
- 
+ Funções:
+ Uma função é um bloco de código que realiza uma tarefa específica ou caucula um valor.
+ Você pode pensar nela como uma "receita"  que você escreve uma vez e pode usar várias vezes, sem precisar rescrever o código.
+
+
+nomeie funções de acordo com o problema a ser resolvido Use(verbos) para nomear funções. Ex: calcular() cadastrar()
+
+ Para criar uma função simples(literal) usamos a palavra reservada function, e escolhemos um nome, conforme
+sintaxe abaixo:
+
+function nome() {
+  //código
+}
+
+Para executar uma função devemos escrever o nome da função seguido de parêtense:
+nome()
+
+// variáveis
+Tipos primitivos: string, number, boolean
+Outros tipos: function, object
+
+// Funções em JavaScript
+
+- literais (nome)
+- atribuídas (variáveis) "Função anônima"
+São funções atribuidas a uma constate ou variável onde o resultado do processamento da função é armazenada
+e pode ser utilizado, além disso funções atribuidas podem ser simplificadas
+(arrow function)
+
+Atividade 3 (Avaliação em dupla)
+Desenvolver uma calculadora no console usando funções conforme o modelo abaixo:
+
+Calculadora:
+Digite o primeiro número: 10
+Digite o segundo número: 2
+Opções:
+1. Somar
+2. Subtrair
+3. Multiplicar
+4. Dividir 
+5. Calcular a porcentagem 
+
+Digite a opção desejada: 3
+A multiplicação de 10 x 2 = 20
+__________________________________________________________________________________
+POO
+
+- Abstração (classe modelo)
+- Herança
+- Polimorfismo
+
+- Encapsulamento (segurança)
+Slides de apoio: (49 a 60)
+https://professorjosedeassis.github.io/javaSE/#/56
+
+Obs: Para criar uma classe modelo usamos uma letra maiúscula no ínicio
+
+No JS a clase modelo é uma função
+
+Sempre que existir a palavra new um objeto é criado (instanciado) 
+
+O ponto após o objeto é usado para acessar os recursos (atributos e métodos) da classe modelo
+
+Polimorfismo:
+Atenção! Para escrever um método é necessãrio uasr o "MESMO" nome do método original
+
+Atividade 4: Avaliação individual
+Slides 16 a 20 (POO Exercicío 1 - carros)
+
+Encapsulamento:
+- Reforço na segurança dos atributos(variáveis)
+Dica: get e set (acesso a variável encapsulada)
+
         
             
 
